@@ -50,7 +50,7 @@ if __name__ == '__main__':
 * 추상클래스 모듈을 임포트 하여 breadType 클래스를 추상클래스로 생성 후, 반복되는 recipe 메소드를 구현했습니다.
 * 이때 recipe를 구현하지 않으면 에러가 나므로 꼭 구현합니다.
 * 객체 리스트를 순환하며 출력하는 조건이 있었으므로 리스트를 만들어 eval() 함수를 이용하여 함수를 호출합니다.
-/n /n
+
 
 ### 2. 체이닝메소드 이용, add, substract 함수 구현(calculator)
 ```
@@ -75,7 +75,7 @@ print(calculator.add(4).add(5).subtract(3).result)
 
 * 체이닝 메소드를 이용하기 위한 calculator 클래스 생성, 여기서 함수 return에서 self.result가 아닌 self인점 주의가.
 
-/n /n
+
 ### 3. 재귀함수를 이용하여 Factorial 을 구하는 함수
 ```
 def factorial(n):
@@ -105,7 +105,7 @@ print(factorial(1000))
 ```
 * 메모리 초과 오류 방지를 위해 꼬리재귀 함수 또는 while 문을 쓴다. 파이썬일 경우 math의 모듈의 팩토리얼 함수를 사용하면 간편하게 구할 수 있습니다. 
 
-/n /n
+
 
 ### 5. 디지털 연못 물 깊이의 총합
 ```
